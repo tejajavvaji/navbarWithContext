@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #333333;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.nav-links-container {
+  display: flex;
+  list-style-type: none;
+  font-weight: bold;
+  width: 150px;
+  justify-content: space-between;
+}
+.link {
+  text-decoration: none;
+
+  cursor: pointer;
+}
